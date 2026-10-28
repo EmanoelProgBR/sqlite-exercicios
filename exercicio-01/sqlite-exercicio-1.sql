@@ -14,7 +14,7 @@ CREATE TABLE clientes (
 
 CREATE TABLE compras (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  cliente_id TEXT NOT NULL,
+  cliente_id INTEGER NOT NULL,
   produto_id INTEGER NOT NULL,
   data TEXT NOT NULL
 );
@@ -22,9 +22,9 @@ CREATE TABLE compras (
 INSERT INTO 
   produtos (nome, preco) 
 VALUES 
-  ('Notebook', '1000'), 
-  ('Smartphone', '500'), 
-  ('Tablet','300');
+  ('Notebook', 1000), 
+  ('Smartphone', 500), 
+  ('Tablet',300);
 
 INSERT INTO 
   clientes (nome, email) 
