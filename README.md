@@ -4,7 +4,8 @@ Minhas práticas de SQL usando SQLite no VS Code.
 
 ## Exercícios
 
-- `exercicio-01`: criação das tabelas `produtos`, `clientes` e `compras`, inserção de dados e consultas com SELECT e WHERE
+- `exercicio-01`: Criação das tabelas `produtos`, `clientes` e `compras`, inserção de dados e consultas com SELECT e WHERE
+- `exercicio-02`: Modelagem de dados com tabelas para cursos, aulas, usuários, aulas concluídas e certificados, usando `STRICT`, chaves primárias (inclusive compostas) e estrangeiras, `UNIQUE` e `ON DELETE CASCADE`
 
 ## Como executar
 
